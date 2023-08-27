@@ -1,0 +1,18 @@
+{
+  "name": "cc-001-starfield",
+  "version": "1.0.0",
+  "description": "Code Challenge #1: Starfield",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel --port 8080"
+  },
+  "author": "Marcelo dos Santos",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "p5": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.0",
+    "parcel": "^2.9.3"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "cc-001-starfield",
   "version": "1.0.0",
-  "description": "Code Challenge #1: Starfield",
+  "description": "Code Challenge #1: Starfield Simulation",
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel --port 8080"

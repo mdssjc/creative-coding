@@ -1,1 +1,3 @@
-# creative-coding
+# CREATIVE CODING
+
+- coding challenges

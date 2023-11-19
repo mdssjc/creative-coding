@@ -1,19 +1,19 @@
 import p5 from 'p5';
 
 export default class Start {
-  private x: number;
-  private y: number;
-  private z: number;
-  private pz: number;
+  private x: number = 0;
+  private y: number = 0;
+  private z: number = 0;
+  private pz: number = 0;
 
   constructor(private p5: p5) {
-    this.reset(p5);
+    this.reset();
   }
 
   update(speed: number) {
     this.z = this.z - speed;
     if (this.z < 1) {
-      this.reset(this.p5);
+      this.reset();
     }
   }
 
@@ -37,10 +37,10 @@ export default class Start {
     this.p5.line(px, py, sx, sy);
   }
 
-  private reset(p5: p5) {
-    this.x = p5.random(-p5.width, p5.width);
-    this.y = p5.random(-p5.height, p5.height);
-    this.z = p5.random(p5.width);
+  private reset() {
+    this.x = this.p5.random(-this.p5.width, this.p5.width);
+    this.y = this.p5.random(-this.p5.height, this.p5.height);
+    this.z = this.p5.random(this.p5.width);
     this.pz = this.z;
   }
 }

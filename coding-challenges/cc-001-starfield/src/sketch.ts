@@ -16,9 +16,9 @@ const app = new p5((p: p5) => {
     speed = p.map(p.mouseX, 0, p.width, 0, 50);
     p.background(0);
     p.translate(p.width / 2, p.height / 2);
-    for (const star of stars) {
+    stars.forEach((star) => {
       star.update(speed);
       star.show();
-    }
+    });
   };
 });

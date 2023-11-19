@@ -1,0 +1,18 @@
+{
+  "name": "cc-000-template",
+  "version": "1.0.0",
+  "description": "Code Challenge #0: Template",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel --port 8080"
+  },
+  "author": "Marcelo dos Santos",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "p5": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.7.3",
+    "parcel": "^2.10.3"
+  }
+}
